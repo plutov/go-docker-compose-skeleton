@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/shared"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/shared"
 )
 
 // Mysql struct

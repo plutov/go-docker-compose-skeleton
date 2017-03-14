@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /go/src/github.com/plutov/go-docker-compose-skeleton
+cd /go/src/github.com/plutov/go-docker-compose-skeleton/api
 
 glide install
 goose --env=development up

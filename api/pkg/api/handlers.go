@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"github.com/gocraft/web"
 	"github.com/gorilla/context"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/env"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/shared"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/env"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/shared"
 	"io/ioutil"
 	"net/http"
 )

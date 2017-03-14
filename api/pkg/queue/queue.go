@@ -2,7 +2,7 @@ package queue
 
 import (
 	"github.com/kr/beanstalk"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/shared"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/shared"
 )
 
 // Beanstalkd struct

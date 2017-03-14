@@ -18,9 +18,9 @@
 package main
 
 import (
-	"github.com/plutov/go-docker-compose-skeleton/pkg/api"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/env"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/shared"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/api"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/env"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/shared"
 	"os"
 )
 

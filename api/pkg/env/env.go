@@ -2,9 +2,9 @@ package env
 
 import (
 	"flag"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/db"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/queue"
-	"github.com/plutov/go-docker-compose-skeleton/pkg/shared"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/db"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/queue"
+	"github.com/plutov/go-docker-compose-skeleton/api/pkg/shared"
 )
 
 // Context struct

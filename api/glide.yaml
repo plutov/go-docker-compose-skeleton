@@ -1,4 +1,4 @@
-package: github.com/plutov/go-docker-compose-skeleton
+package: github.com/plutov/go-docker-compose-skeleton/api
 import:
 - package: github.com/go-sql-driver/mysql
   version: v1.3
