@@ -1,0 +1,11 @@
+package: github.com/plutov/go-docker-compose-skeleton
+import:
+- package: github.com/go-sql-driver/mysql
+  version: v1.3
+- package: github.com/gocraft/web
+  version: v1.1
+- package: github.com/gorilla/context
+  version: v1.1
+- package: github.com/sirupsen/logrus
+  version: v0.11.4
+- package: github.com/kr/beanstalk

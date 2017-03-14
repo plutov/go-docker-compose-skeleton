@@ -1,0 +1,36 @@
+version: '2'
+services:
+  queue:
+    image: schickling/beanstalkd:latest
+    ports:
+      - "11300:11300"
+
+  db:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: app
+      MYSQL_PASSWORD: 12345
+      MYSQL_DATABASE: app
+    depends_on:
+      - queue
+
+  api:
+    build:
+      context: ./
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  swagger:
+    image: schickling/swagger-ui:latest
+    environment:
+      API_URL: http://127.0.0.1:8080/swagger.json
+      PORT: 8081
+    ports:
+      - "8081:8081"
+    depends_on:
+      - api
