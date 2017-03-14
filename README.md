@@ -1,11 +1,11 @@
 ### Go skeleton API environment
 
 Personally I am using this environment to up Go API fast. It's based on docker-compose and includes:
- 
+
  - mysql init
  - mysql db migrations
  - beanstalkd init
- - swagger ui
+ - auto-generating swagger ui
 
 ### Usage
 
